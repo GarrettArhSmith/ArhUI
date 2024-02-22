@@ -1,5 +1,5 @@
 {
-  "name": "@GarrettArh/arh-ui",
+  "name": "@GarrettArhSmith/arh-ui",
   "version": "1.0.0",
   "description": "React Component Library",
   "main": "dist/index.umd.js",
@@ -25,6 +25,6 @@
     "react": "^18.2.0"
   },
   "publishConfig": {
-    "@GarrettArh:registry": "https://npm.pkg.github.com"
+    "@GarrettArhSmith:registry": "https://npm.pkg.github.com"
     }
 }
