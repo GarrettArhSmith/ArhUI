@@ -10,14 +10,26 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "vite build && tsc"
+    "build": "vite build && tsc",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "author": "Garrett Smith",
   "license": "ISC",
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.2.25",
+    "@storybook/addon-essentials": "^8.0.4",
+    "@storybook/addon-interactions": "^8.0.4",
+    "@storybook/addon-links": "^8.0.4",
+    "@storybook/addon-onboarding": "^8.0.4",
+    "@storybook/blocks": "^8.0.4",
+    "@storybook/react": "^8.0.4",
+    "@storybook/react-vite": "^8.0.4",
+    "@storybook/test": "^8.0.4",
     "@types/node": "^20.11.17",
     "@types/react": "^18.2.55",
     "react": "^18.2.0",
+    "storybook": "^8.0.4",
     "typescript": "^5.3.3",
     "vite": "^5.1.1"
   },
@@ -26,5 +38,5 @@
   },
   "publishConfig": {
     "@GarrettArhSmith:registry": "https://npm.pkg.github.com"
-    }
+  }
 }

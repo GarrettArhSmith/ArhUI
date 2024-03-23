@@ -2,6 +2,12 @@
   border-radius: 5px;
   padding: 10px 20px;
   font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+[data-button]:hover {
   border: 1px solid #000000;
 }
 
@@ -13,4 +19,21 @@
 [data-button~="kind:secondary"] {
   background-color: #ffffff;
   color: #000000;
+}
+
+[data-button~="backgroundColor:red"] {
+  background-color: red;
+  color: #ffffff;
+}
+
+[data-button~="size:small"] {
+  font-size: 12px;
+}
+
+[data-button~="size:medium"] {
+  font-size: 20px;
+}
+
+[data-button~="size:large"] {
+  font-size: 28px;
 }
